@@ -54,7 +54,7 @@ Config.DrawMarkers = true
   radius = how close (meters) the vehicle has to be to coords (checked on the server)
   ped    = the mechanic: { model, coords = vec4 (his post), workCoords = vec4 (where he works on the vehicle,
            optional) }, or false for none
-  blip   = { sprite, colour, scale } or false for no map blip
+  blip   = { sprite, colour, scale, label } (all optional) or false for no map blip
 ]]
 Config.Locations = {
     burton = {
