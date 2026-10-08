@@ -83,8 +83,9 @@ end
 
 --- Idle pose at his post (the 1.x bouncer stance)
 local function pedIdle(ped)
-  local ok = pcall(lib.requestAnimDict, IDLE_DICT, 5000)
-  if not ok or not DoesEntityExist(ped) then return end
+  local ok, err = pcall(lib.requestAnimDict, IDLE_DICT, 5000)
+  if not ok then return Debug("error", "Idle animation could not be loaded: %s", tostring(err)) end
+  if not DoesEntityExist(ped) then return end
   TaskPlayAnim(ped, IDLE_DICT, IDLE_NAME, 8.0, -8.0, -1, 1, 0, false, false, false)
   RemoveAnimDict(IDLE_DICT)
 end
@@ -147,8 +148,8 @@ local function pedBackToPost(location)
   local ped = peds[location.id]
   if not location.ped or not ped or not DoesEntityExist(ped) then return end
   ClearPedTasks(ped)
-  if not location.ped.workCoords then return pedIdle(ped) end
   CreateThread(function()
+    if not location.ped.workCoords then return pedIdle(ped) end
     walkPed(ped, location.ped.coords, location.ped.heading, function() return repairing == nil end)
     if repairing == nil and peds[location.id] == ped then pedIdle(ped) end
   end)
