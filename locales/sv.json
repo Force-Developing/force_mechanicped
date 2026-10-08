@@ -1,0 +1,21 @@
+{
+  "blip": "Mekaniker",
+  "target_label": "Laga fordon",
+  "textui": "[E] Laga fordon",
+  "confirm_content": "Mekanikern lagar ditt fordon för **%s kr**. Det tar %s sekunder.  \nMotor: %s%%, kaross: %s%%",
+  "confirm_content_free": "Mekanikern lagar ditt fordon gratis. Det tar %s sekunder.  \nMotor: %s%%, kaross: %s%%",
+  "repairing": "Mekanikern lagar ditt fordon...",
+  "repaired": "Ditt fordon är lagat.",
+  "paid": "Du betalade %s kr för reparationen.",
+  "refunded": "Reparationen misslyckades, du fick tillbaka %s kr.",
+  "cancelled": "Reparationen avbröts.",
+  "repair_failed": "Reparationen kunde inte slutföras.",
+  "mechanics_online": "Det finns mekaniker i tjänst. Ring någon av dem i stället.",
+  "no_money": "Du har inte råd med reparationen (%s kr).",
+  "too_far": "Kör fordonet till markeringen.",
+  "cooldown": "Vänta en stund innan nästa reparation.",
+  "busy": "En reparation pågår redan.",
+  "no_vehicle": "Du måste sitta i förarsätet på ett fordon.",
+  "not_ready": "Mekanikern är inte redo än. Försök igen om en stund.",
+  "server_no_response": "Servern svarade inte. Försök igen."
+}

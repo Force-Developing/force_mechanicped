@@ -1,0 +1,21 @@
+{
+  "blip": "Mechanic",
+  "target_label": "Repair vehicle",
+  "textui": "[E] Repair vehicle",
+  "confirm_content": "The mechanic repairs your vehicle for **$%s**. It takes %s seconds.  \nEngine: %s%%, body: %s%%",
+  "confirm_content_free": "The mechanic repairs your vehicle for free. It takes %s seconds.  \nEngine: %s%%, body: %s%%",
+  "repairing": "The mechanic is repairing your vehicle...",
+  "repaired": "Your vehicle has been repaired.",
+  "paid": "You paid $%s for the repair.",
+  "refunded": "The repair failed, you got your $%s back.",
+  "cancelled": "Repair cancelled.",
+  "repair_failed": "The repair could not be finished.",
+  "mechanics_online": "There are mechanics on duty. Call one of them instead.",
+  "no_money": "You can't afford the repair ($%s).",
+  "too_far": "Drive the vehicle onto the marker.",
+  "cooldown": "Wait a moment before the next repair.",
+  "busy": "A repair is already running.",
+  "no_vehicle": "You have to sit in the driver seat of a vehicle.",
+  "not_ready": "The mechanic isn't ready yet. Try again in a moment.",
+  "server_no_response": "The server didn't respond. Try again."
+}
