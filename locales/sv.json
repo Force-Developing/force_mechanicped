@@ -7,7 +7,7 @@
   "repairing": "Mekanikern lagar ditt fordon...",
   "repaired": "Ditt fordon är lagat.",
   "paid": "Du betalade %s kr för reparationen.",
-  "refunded": "Reparationen misslyckades, du fick tillbaka %s kr.",
+  "refunded": "Du fick tillbaka %s kr.",
   "cancelled": "Reparationen avbröts.",
   "repair_failed": "Reparationen kunde inte slutföras.",
   "mechanics_online": "Det finns mekaniker i tjänst. Ring någon av dem i stället.",

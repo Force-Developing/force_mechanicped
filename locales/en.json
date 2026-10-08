@@ -7,7 +7,7 @@
   "repairing": "The mechanic is repairing your vehicle...",
   "repaired": "Your vehicle has been repaired.",
   "paid": "You paid $%s for the repair.",
-  "refunded": "The repair failed, you got your $%s back.",
+  "refunded": "You got your $%s back.",
   "cancelled": "Repair cancelled.",
   "repair_failed": "The repair could not be finished.",
   "mechanics_online": "There are mechanics on duty. Call one of them instead.",
