@@ -32,6 +32,15 @@ No database is used.
 
 https://docs.forcedevelopments.com/free-resources/force_mechanicped/introduction
 
+## More from Force Developments
+
+Paid resources that pair well with this one. Escrow-protected, documented, with free updates:
+
+- **[Force Invoices](https://forcedevelopments.com/scripts/force-invoices?utm_source=github&utm_medium=readme&utm_campaign=force_mechanicped)**: personal and job billing.
+- **[Force Loanbank](https://forcedevelopments.com/scripts/force-loanbank?utm_source=github&utm_medium=readme&utm_campaign=force_mechanicped)**: loans with interest rates and due dates.
+
+Want all of them? [All Resources](https://forcedevelopments.com/scripts/all-resources-1-month?utm_source=github&utm_medium=readme&utm_campaign=force_mechanicped) is a monthly subscription that includes every paid resource. Browse the full catalogue at [forcedevelopments.com](https://forcedevelopments.com/scripts?utm_source=github&utm_medium=readme&utm_campaign=force_mechanicped).
+
 ## License
 
 Apache 2.0, see [LICENSE](LICENSE).
